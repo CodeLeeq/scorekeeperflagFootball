@@ -9,10 +9,9 @@
 
     <Button
         android:id="@+id/one_extrapoint_btn2"
-        android:layout_width="wrap_content"
+        android:layout_width="140dp"
         android:layout_height="50dp"
         android:layout_marginEnd="36dp"
-        android:layout_marginRight="36dp"
         android:background="@android:color/background_light"
         android:onClick="teamYellowAddOne"
         android:text="@string/one_extra_point"
@@ -26,7 +25,6 @@
         android:layout_width="29dp"
         android:layout_height="53dp"
         android:layout_marginStart="80dp"
-        android:layout_marginLeft="80dp"
         android:layout_marginTop="18dp"
         android:text="@string/number"
         android:textColor="@android:color/background_light"
@@ -42,7 +40,6 @@
         android:layout_height="52dp"
         android:layout_marginTop="18dp"
         android:layout_marginEnd="80dp"
-        android:layout_marginRight="80dp"
         android:text="@string/number"
         android:textColor="@android:color/background_light"
         android:textSize="40sp"
@@ -52,10 +49,9 @@
 
     <Button
         android:id="@+id/td_button"
-        android:layout_width="wrap_content"
+        android:layout_width="140dp"
         android:layout_height="50dp"
         android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
         android:layout_marginTop="32dp"
         android:background="@android:color/background_light"
         android:onClick="teamRedAddSix"
@@ -67,10 +63,9 @@
 
     <Button
         android:id="@+id/one_extrapoint_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="140dp"
         android:layout_height="50dp"
         android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
         android:layout_marginTop="32dp"
         android:background="@android:color/background_light"
         android:onClick="teamRedAddOne"
@@ -82,10 +77,9 @@
 
     <Button
         android:id="@+id/two_extrapoint_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="145dp"
         android:layout_height="50dp"
         android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
         android:layout_marginTop="32dp"
         android:background="@android:color/background_light"
         android:onClick="teamRedAddTwo"
@@ -97,10 +91,9 @@
 
     <Button
         android:id="@+id/two_extrapoint_btn2"
-        android:layout_width="wrap_content"
+        android:layout_width="145dp"
         android:layout_height="50dp"
         android:layout_marginEnd="36dp"
-        android:layout_marginRight="36dp"
         android:background="@android:color/background_light"
         android:onClick="teamYellowAddTwo"
         android:text="@string/two_extra_points"
@@ -111,10 +104,9 @@
 
     <Button
         android:id="@+id/fg2"
-        android:layout_width="wrap_content"
+        android:layout_width="145dp"
         android:layout_height="50dp"
         android:layout_marginEnd="36dp"
-        android:layout_marginRight="36dp"
         android:background="@android:color/background_light"
         android:onClick="teamYellowAddFg"
         android:text="@string/field_goal"
@@ -126,10 +118,9 @@
 
     <Button
         android:id="@+id/fg"
-        android:layout_width="wrap_content"
+        android:layout_width="145dp"
         android:layout_height="50dp"
         android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
         android:layout_marginTop="32dp"
         android:background="@android:color/background_light"
         android:onClick="teamRedAddFg"
@@ -142,10 +133,9 @@
 
     <Button
         android:id="@+id/safety_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="145dp"
         android:layout_height="47dp"
         android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
         android:layout_marginTop="32dp"
         android:background="@android:color/background_light"
         android:onClick="teamRedAddSg"
@@ -157,10 +147,9 @@
 
     <Button
         android:id="@+id/safety_btn2"
-        android:layout_width="wrap_content"
+        android:layout_width="145dp"
         android:layout_height="47dp"
         android:layout_marginEnd="36dp"
-        android:layout_marginRight="36dp"
         android:background="@android:color/background_light"
         android:onClick="teamYellowAddSg"
         android:text="@string/safety"
@@ -171,10 +160,9 @@
 
     <Button
         android:id="@+id/ylw_td_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="140dp"
         android:layout_height="50dp"
         android:layout_marginEnd="36dp"
-        android:layout_marginRight="36dp"
         android:background="@android:color/background_light"
         android:onClick="teamYellowAddSix"
         android:text="@string/td"
@@ -202,8 +190,7 @@
         android:id="@+id/red_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
+        android:layout_marginStart="36dp"
         android:layout_marginTop="16dp"
         android:text="@string/team_red"
         android:textColor="@android:color/holo_red_dark"
@@ -217,8 +204,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginEnd="36dp"
         android:text="@string/team_yellow"
         android:textColor="@android:color/holo_orange_dark"
         android:textSize="24sp"
