@@ -1,10 +1,10 @@
 package com.example.scorekeeperflagfootball;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -55,20 +55,40 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void teamYellowAddOne(View view) {
+        scoreYellowTeam = scoreYellowTeam + 1;
+        displayYellowScore(scoreYellowTeam);
     }
 
     public void teamYellowAddTwo(View view) {
+        scoreYellowTeam = scoreYellowTeam + 2;
+        displayYellowScore(scoreYellowTeam);
     }
 
     public void teamYellowAddFg(View view) {
+        scoreYellowTeam = scoreYellowTeam + 3;
+        displayYellowScore(scoreYellowTeam);
     }
 
     public void teamYellowAddSg(View view) {
+        scoreYellowTeam = scoreYellowTeam + 2;
+        displayYellowScore(scoreYellowTeam);
     }
 
     public void teamYellowAddSix(View view) {
+        scoreYellowTeam = scoreYellowTeam + 6;
+        displayYellowScore(scoreYellowTeam);
     }
 
     public void ResetAllScore(View view) {
+        scoreRedTeam = 0;
+        scoreYellowTeam = 0;
+        displayYellowScore(scoreYellowTeam);
+        displayRedScore(scoreRedTeam);
+    }
+
+    //A display score for Yellow team
+    public void displayYellowScore(int score) {
+        TextView scoreView = findViewById(R.id.yellow_score);
+        scoreView.setText(String.valueOf(score));
     }
 }
